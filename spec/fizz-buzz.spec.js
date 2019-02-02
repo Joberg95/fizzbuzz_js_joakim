@@ -1,9 +1,9 @@
-const {FizzBuzz} = require ('../spec.helper')
+const {FizzBuzz} = require('../spec.helper')
 
-describe('Fizz Buzz, () => {
+describe('FizzBuzz', () => {
     let fizzBuzz = new FizzBuzz
-})
 
-it('returns a number if no game rules are met', () => {
-    expect(fizzBuzz.check(1)).to.eql(1)
+    it ('returns a number if no game rules are met', () => {
+        expect(fizzBuzz.check(1)).to.eql(1)
+    })
 })
