@@ -1,4 +1,4 @@
-# FIZZBUZZ IN JS [WIP]
+# FIZZBUZZ IN JS
 
 ## Question 1: Explain this code snippet and what it does.
 ```javascript
@@ -9,7 +9,7 @@ Answer: Returns content in a callback.
 
 ## Question 2. To the best of your knowledge please explain why we are placing the let fizzBuzz = new FizzBuzz outside the it block?
 
-Answer: -
+Answer: 
 
 ## Question 3. To the best of your knowledge please explain the difference between using === and == in JS?
 
