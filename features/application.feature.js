@@ -14,7 +14,7 @@ context('User can input a value and get FizzBuzz results', () => {
     browser.close();
   });
 
-  it ('clicking on the "check" button', async () => {
+  it ('clicking on the "Check" button', async () => {
     await browser.fillIn("input[id='value']", {with:  "3"})
     await browser.clickOnButton("input[value='Check']")
     let content = await browser.getContent("[id='display_answer']")
